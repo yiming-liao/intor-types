@@ -1,6 +1,6 @@
 {
   "name": "intor-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript type definitions for Intor i18n library, providing strict typings for translation messages, fallback handling, and rich text replacements.",
   "author": "Yiming Liao",
   "license": "MIT",
