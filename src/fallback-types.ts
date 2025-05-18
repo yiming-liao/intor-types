@@ -16,4 +16,6 @@ import { Locale } from "./base-types";
  * };
  * ```
  */
-export type FallbackLocalesMap = Partial<Record<Locale, Locale[]>>;
+export type FallbackLocalesMap<L extends string = Locale> = Partial<
+  Record<L, L[]>
+>;
