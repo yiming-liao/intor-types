@@ -1,0 +1,52 @@
+{
+  "name": "intor-types",
+  "version": "1.0.0",
+  "description": "TypeScript type definitions for Intor i18n library, providing strict typings for translation messages, fallback handling, and rich text replacements.",
+  "author": "Yiming Liao",
+  "license": "MIT",
+  "homepage": "https://github.com/yiming-liao/intor-types#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yiming-liao/intor-types"
+  },
+  "bugs": {
+    "url": "https://github.com/yiming-liao/intor-types/issues"
+  },
+  "keywords": [
+    "typescript",
+    "types",
+    "i18n",
+    "internationalization",
+    "translation",
+    "type-definitions",
+    "intor",
+    "localization",
+    "typescript-library",
+    "static-types"
+  ],
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "lint": "eslint",
+    "prepublishOnly": "yarn build"
+  },
+  "sideEffects": false,
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "eslint": "^9.27.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.4.0",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.1"
+  }
+}
